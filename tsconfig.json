@@ -16,10 +16,12 @@
     "incremental": true,
     "baseUrl": "./src",
     "paths": {
+      "@/*": ["*"],
       "@lib/*": ["lib/*"],
       "@modules/*": ["modules/*"],
       "@pages/*": ["pages/*"]
     },
+    "typeRoots": ["./node_modules/@types"],
     "plugins": [
       {
         "name": "next"

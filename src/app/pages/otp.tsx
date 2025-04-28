@@ -1,7 +1,4 @@
-// src/app/pages/otp.tsx
-
-"use client"
-
+"use client" // якщо ти в App Router
 import { useState } from "react"
 import axios from "axios"
 
